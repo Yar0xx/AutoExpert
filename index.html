@@ -17,6 +17,8 @@
 
 <body>
 
+    <!-- MENU MOBILE -->
+
     <div class="navi">
         <div class="navi__list">
             <a href="#aboutus" class="navi__item">o nas</a>
@@ -26,32 +28,29 @@
         </div>
     </div>
 
-    <div class="wrapper-menu hide-burger"> <!-- open -->
+    <div class="wrapper-menu hide-burger">
         <div class="line-menu half start"></div>
         <div class="line-menu"></div>
         <div class="line-menu half end"></div>
     </div>
 
+    <!-- MENU DESKTOP -->
 
     <nav class="nav">
         <div class="nav__logo">
             auto<span>expert</span>
         </div>
-        
+
         <div class="nav__menu">
+            <a href="#aboutus" class="d-md-none">o nas</a>
+            <a href="#services" class="d-md-none">usługi</a>
+            <a href="#gallery" class="d-md-none">galeria</a>
+            <a href="#contact" class="d-md-none">kontakt</a>
 
-          
-                <a href="#aboutus" class="d-md-none">o nas</a>
-                <a href="#services" class="d-md-none">usługi</a>
-                <a href="#gallery" class="d-md-none">galeria</a>
-                <a href="#contact" class="d-md-none">kontakt</a>
-            
         </div>
-
-        
     </nav>
 
-    
+    <!-- HEADER -->
 
     <header class="header">
         <div class="header__img"></div>
@@ -60,7 +59,7 @@
         <div class="header__text">
             <h1>Witaj w Auto<span>Expert</span></h1>
             <p>W mijscu, gdzie twoje auto dostanie nowe życie!</p>
-            <button href="#aboutus">Poznaj nas</button>
+            <button><a href="#aboutus">Poznaj nas</a></button>
         </div>
 
         <a href="#aboutus">
@@ -71,38 +70,114 @@
 
 
 
+    <section id="aboutus" class="aboutus">
+        <div class="wrapper desktop">
 
-
-
-
-
-
-
-
-
-    <!-- 
-loool
-
-<section class="about">
-    <div class="wrapper">
-    <div class="aboutus">
-
-        <div class="aboutus__section one">
-            <div class="aboutus__section__circle"></div>
-            <div class="aboutus__section__text"></div>
-            <div class="aboutus__section__img"></div>
-        </div>
-
-        <div class="aboutus__lines">
-            <div class="aboutus_lines_bars">
-                
+            <div class="title">
+                o nas
+                <div class="underline"></div>
             </div>
+            <!-- BOX ONE -->
+            <div class="box_one">
+                <div class="box_one__circle box_circle"></div>
+                <div class="box_one__bg  box_text">
+                    <div class="text_box_left">
+                        <p>Nasza firma funkcjonuje od 2008 roku. Świadczymy usługi w branży blacharstwa i lakiernictwa
+                            samochodowego. Szczycimy się zespołem wykwalifikowanych specjalistów, dzięki czemu żaden
+                            projekt
+                            nam niestraszny.</p>
+                    </div>
+                </div>
+                <div class="box_one__img"></div>
+                <div class="bars_one">
+                    <div class="bars_one__line one"></div>
+                    <div class="bars_one__line two"></div>
+                    <div class="bars_one__line three"></div>
+                </div>
+            </div>
+            <!-- BOX TWO -->
+            <div class="box_two">
+                <div class="box_two__circle box_circle"></div>
+                <div class="box_two__bg box_text">
+                    <div class="text_box_right">
+                        <p>Niezależnie od tego czy masz do naprawy drobne uszkodzenia, czy też poważne problemy z
+                            karoserią, nasi specjaliści zadbają o to, aby TWÓJ samochód dostał drugie życie. Do każdego
+                            projektu podchodzimy z pasją, zaangażowaniem i co najważniejsze z pełnym profesjonalizmem.
+                        </p>
+                    </div>
+                </div>
+                <div class="box_two__img"></div>
+                <div class="bars_two">
+                    <div class="bars_two__line one"></div>
+                    <div class="bars_two__line two"></div>
+                    <div class="bars_two__line three"></div>
+                </div>
+            </div>
+            <!-- BOX THREE -->
+            <div class="box_three">
+                <div class="box_three__circle box_circle"></div>
+                <div class="box_three__bg box_text">
+                    <div class="text_box_left">
+                        <p>Naszym priorytetem są usatysfakcjonowani klienci. Posiadamy nowoczesny sprzęt, oraz materiały
+                            od
+                            najlepszych dostawców. Dzięki temu nasz praca jest szybka, przyjemna i na najwyższym
+                            poziomie.</p>
+                    </div>
+                </div>
+                <div class="box_three__img"></div>
+                <div class="bars_three">
+                    <div class="bars_three__line one"></div>
+                    <div class="bars_three__line two"></div>
+                    <div class="bars_three__line three"></div>
+                </div>
+            </div>
+
+            <div class="box_four">
+                <p>Co tu więcej mówić.
+                    Odwiedź nas i przekonaj się, że nasza praca jest godna polecenia.</p>
+            </div>
+
         </div>
 
-    </div>        
-    </div>
-</section> -->
+        <!-- MOBILE -->
 
+        <div class="mobile">
+            <div class="title">
+                o nas
+                <div class="underline"></div>
+            </div>
+            <div class="mobile_text">
+                <p>Nasza firma funkcjonuje od 2008 roku. Świadczymy usługi w branży blacharstwa i lakiernictwa
+                    samochodowego. Szczycimy się zespołem wykwalifikowanych specjalistów, dzięki czemu żaden projekt nam
+                    niestraszny.</p>
+
+                    <div class="bars_one">
+                        <div class="bars_three__line two"></div>
+                        <div class="bars_three__line three"></div>
+                    </div>
+
+                <p>Niezależnie od tego czy masz do naprawy drobne, czy też poważne problemy z karoserią, nasi
+                    specjaliści zadbają o to, aby TWÓJ samochód dostał drugie życie. Do każdego projektu podchodzimy z
+                    pasją, zaangażowaniem i co najważniejsze z pełnym profesjonalizmem.</p>
+
+                    <div class="bars_two">
+                        <div class="bars_three__line two"></div>
+                        <div class="bars_three__line three"></div>
+                    </div>
+
+                <p>Naszym priorytetem są usatysfakcjonowani klienci. Posiadamy nowoczesny sprzęt, oraz materiały od
+                    najlepszych dostawców. Dzięki temu nasz praca jest szybka, przyjemna i na najwyższym poziomie.</p>
+
+                    <div class="bars_three">
+                        <div class="bars_three__line two"></div>
+                        <div class="bars_three__line three"></div>
+                    </div>
+
+                <p><strong>Co tu więcej mówić. Odwiedź nas i przekonaj się, że nasza praca jest godna polecenia.</strong></p>
+            </div>
+
+        </div>
+    </section>
 
     <script src="./js/burger_menu.js"></script>
     <script src="./js/main.js"></script>
